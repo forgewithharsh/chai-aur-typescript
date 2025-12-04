@@ -1,4 +1,5 @@
 function greet(name: string): string {
+  //check => check if name is of type string
   return `Hello ${name}`;
 }
 
