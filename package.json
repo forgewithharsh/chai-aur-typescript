@@ -1,0 +1,25 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"assets/chai-aur-typescript.jpg\" alt=\"Chai Aur Typescript Banner\" width=\"800\"> </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forgewithharsh/chai-aur-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/forgewithharsh/chai-aur-typescript/issues"
+  },
+  "homepage": "https://github.com/forgewithharsh/chai-aur-typescript#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
