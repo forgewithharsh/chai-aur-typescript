@@ -6,5 +6,3 @@ let channelName = "Chaiaurcode";
 
 let chaiFlavour:string = "masala chai";
 chaiFlavour = "Ginger tea"
-
-let chaiOrder:
