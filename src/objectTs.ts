@@ -51,4 +51,71 @@ const u: User = {
   password: "123",
 };
 
-// type Item : {name: string}
+type Item = { name: string; quantity: number };
+type Address = { street: string; pin: number };
+
+type Order = {
+  id: string;
+  items: Item[];
+  address: Address;
+};
+
+// type Chai = {
+//   name: string;
+//   price: number;
+//   isHot: boolean;
+// };
+
+// const updateChai = (updates: Partial<Chai>) => {
+//   console.log("updating chai with", updates);
+// };
+
+// updateChai({ price: 25 });
+// updateChai({ isHot: false });
+
+type ChaiOrder = {
+  name?: string;
+  quantity?: number;
+};
+
+const placeOrder = (order: Required<ChaiOrder>) => {
+  console.log(order);
+};
+
+placeOrder({
+  name: "Masala Chai",
+  quantity: 2,
+});
+
+type Chai = {
+  name: string;
+  price: number;
+  isHot: boolean;
+  ingredients: string[];
+};
+
+type BasicChaiInfo = Pick<Chai, "name" | "price">;
+
+const chaiInfo: BasicChaiInfo = {
+  name: "Lemon Tea",
+  price: 30,
+};
+
+console.log(chaiInfo);
+
+type ChaiNew = {
+  name: string;
+  price: number;
+  isHot: boolean;
+  secretIngredients: string;
+};
+
+type PublicChai = Omit<ChaiNew, "secretIngredients">;
+
+const brewChai: PublicChai = {
+  name: "Masala Chai",
+  price: 50,
+  isHot: true,
+};
+
+console.log(brewChai);
