@@ -51,4 +51,4 @@ const u: User = {
   password: "123",
 };
 
-type Item : {name: string}
+// type Item : {name: string}
