@@ -15,8 +15,6 @@ export function useFetch<T>(url: string): FetchState<T> {
 
   //useEffect to make fetch request
 
-  
-
   return state
 
 }
