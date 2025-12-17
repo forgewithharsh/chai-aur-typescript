@@ -1,4 +1,5 @@
 import "./App.css";
+import { Card } from "./components/Card.tsx";
 import { ChaiCard } from "./components/ChaiCard.tsx";
 import ChaiList from "./components/ChaiList.tsx";
 import { Counter } from "./components/Counter.tsx";
@@ -32,6 +33,9 @@ function App() {
             console.log("Placed:", order.name, order.cups);
           }}
         />
+      </div>
+      <div>
+        <Card title="Chai aur Typescript" footer={<button>Order Now</button>}/>
       </div>
     </>
   );
