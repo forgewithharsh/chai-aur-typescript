@@ -19,6 +19,3 @@ Build a strong foundation in TypeScript while improving consistency, confidence,
 ## Acknowledgements
 Thanks to **Hitesh Choudhary Sir** for simplifying TypeScript and guiding the journey with clarity and motivation.
 
----
-
-Stay tuned for more updates!
